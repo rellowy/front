@@ -19,7 +19,7 @@ header {
   border: 1px solid red;
 }
 
-.container {
+.block {
   border: 1px solid #1126c2;
   height: 100vh;
   width: 100%;
@@ -36,14 +36,13 @@ header {
   row-gap: 20px;
 }
 
-.item {
+.block__item {
   background-color: var(--color-accent);
   color: #fff;
 }
 
-.item:nth-child(3) {
-  width: 20px;
-  height: 20px;
+.block__item_error {
+  background-color: red;
 }
 
 
